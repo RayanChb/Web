@@ -97,7 +97,7 @@ header a{
 }
 
 #ubicacion .container{
-    padding: 150px 12px;
+    padding: 200px 12px;
 }
 
 #ubicacion h2{
@@ -105,9 +105,14 @@ header a{
     font-size: 3.2em;
 }
 
+#caracteristicas{
+    text-align: left;
+    padding-left: 400px;
+}
+
 #caracteristicas .container{
-    text-align: center;
-    padding: 250px 12px;
+    text-align: right;
+    padding: 200px 12px;
 }
 
 #horario{
@@ -118,17 +123,13 @@ header a{
 
 #horario .container{
     text-align: center;
-    padding: 350px 12px;
+    padding: 100px 12px;
     
 }    
 
-#tarifas{
-    text-align: center;
-}
-
 #tarifas .container{
     text-align: center;
-    padding: 450px 12px;
+    padding: 200px 12px;
 }
 
 #final{
