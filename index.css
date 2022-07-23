@@ -210,6 +210,11 @@ footer .container{
         height: 500px;
     }
 
+    #ubicacion .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     #ubicacion .texto{
         width: 50%;
         max-width: 600px;
@@ -218,6 +223,16 @@ footer .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #ubicacion .img-container{
+        width: 590px;
+        height: 500px;
+        float: right;
+        background-image: url("images/Imagen2.png");
+        background-size: cover;
+        border-style: solid;
+        border-color: rgb(134, 134, 37);
     }
 
     #ubicacion p{
@@ -259,12 +274,18 @@ footer .container{
         width: 400px;
         height: 500px;
         background-size: cover;
-        background-image: url("images/Imagen3.png");
+        background-image: url("images/Imagen4.png");
+        border-style: solid;
 
     }
 
     #caracteristicas h2{
         font-size: 4em;
+    }
+
+    #horario .container{
+        display: flex;
+        justify-content: space-evenly;
     }
 
     #horario .texto{
@@ -275,6 +296,16 @@ footer .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #horario .img-container{
+        width: 590px;
+        height: 500px;
+        float: right;
+        background-image: url("images/Imagen2.png");
+        background-size: cover;
+        border-style: solid;
+        border-color: rgb(134, 134, 37);
     }
 
     #horario p{
@@ -318,6 +349,7 @@ footer .container{
         float: left;
         background-image: url("images/Imagen3.png");
         background-size: cover;
+        border-style: solid;
 
     }
 
